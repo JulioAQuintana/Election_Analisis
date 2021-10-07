@@ -7,33 +7,33 @@ A colorado Board of Elections employee has given you the following task to compl
 ## Election Audit Results 
 the following election outcomes was gived from the analysis, helped by commnets in the coding to assure the code is documented for other developers: 
 
-### How many votes were cast in this congressional election?
-369,711 voted for the election.
+* ### 1. How many votes were cast in this congressional election?*
+  ####  _369,711 voted for the election._
 
-### Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
-County Votes:
-Jefferson: 10.5% (38,855)
+* ### 2. Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
+    * #### _County Vote_
+         _Jefferson: 10.5% (38,855)_
 
-Denver: 82.8% (306,055)
+         _Denver: 82.8% (306,055)_
 
-Arapahoe: 6.7% (24,801)
+        _Arapahoe: 6.7% (24,801)_
 
-### Which county had the largest number of votes?
-Denver had the largest number of votes
+* ### 3. Which county had the largest number of votes?
+    * #### _Denver had the largest number of votes_
 
-### Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
+* ### 4.Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
 
-Charles Casper Stockham: 23.0% (85,213)
+    * #### _Charles Casper Stockham: 23.0% (85,213)_
 
-Diana DeGette: 73.8% (272,892)
+    * #### _Diana DeGette: 73.8% (272,892)_
 
-Raymon Anthony Doane: 3.1% (11,606)
+    * #### _Raymon Anthony Doane: 3.1% (11,606)_
 
-### Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
+* ### 5.Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
 
-Winner: Diana DeGette
-Winning Vote Count: 272,892
-Winning Percentage: 73.8%
+    * #### _Winner: Diana DeGette_
+    * #### _Winning Vote Count: 272,892_
+    * #### _Winning Percentage: 73.8%_
 
 ## Resources 
 -Data Source: election_results-csv
@@ -76,6 +76,7 @@ The analysis of the election show that:
         # 3: Extract the county name from each row.
         county_name = row[1]
    ```
-    Finally, feel free to take reference into the code by PyPoll.py file located in the repository "Election Analysis"
-    [Rep](https://github.com/JulioAQuintana/Election_Analysis)
+   
+   Finally, feel free to take reference into the code by PyPoll.py file located in the repository "Election Analysis"
+   #### (https://github.com/JulioAQuintana/Election_Analysis)
 
